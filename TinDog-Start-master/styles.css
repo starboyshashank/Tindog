@@ -1,0 +1,184 @@
+body{
+    font-family: 'Montserrat';
+}
+
+
+.navbar{
+   padding: 0 0 4.5rem;
+   
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size:2.5rem;
+    font-weight: bold;
+}
+/* SECTION-1 */
+
+#title{
+    background-color: #ff4c68;z-index:-1;
+    
+}
+.Download-button{
+    margin:5% 3% 5% 0;
+}
+
+
+.Main-image{
+   
+    width:12%;
+    transform: rotate(25deg);
+    margin-left:8.6rem;
+    position:absolute;
+  
+}
+
+@media (max-width:991px){
+
+    #title{
+        text-align:center;
+    }
+    .Main-image{
+   position:static;
+   transform: rotate(0deg);
+   width:56%;
+   margin-left: -0.9rem;
+   margin-top: 1.9rem;
+
+    }
+}
+
+
+
+ .container-fluid{
+   padding:3% 15%;
+} 
+
+.h-primary{
+    color:white;
+    font-family: 'Montserrat';
+ font-weight: 900;
+    line-height:3.5rem;
+    font-size:3.5rem;
+}
+
+h2{
+    color:#000;
+line-height:4.5rem;
+    font-size:3.2rem;
+    font-weight: 800;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size:1.5rem;
+}
+
+.nav-item{
+    padding:0 18px;
+    font-size:1.3rem;
+    font-weight: lighter;
+}
+
+/* SECTION-2 */
+
+.icon{
+    color:#ef8172;
+    margin:1rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+    
+}
+
+#features{
+    padding:7% 15%;
+    text-align: center;
+    position:relative;
+    z-index:1;
+    background-color: #fff;
+}
+
+
+
+#features p{
+    color:#8f8f8f;
+    padding:0 1rem;
+}
+
+/* SECTION-3 */
+
+#testimonials{
+    text-align:center;
+   
+    font-family: "Montserrat";
+    
+    background-color: #ef8172;
+
+    padding-bottom:0;
+    
+}
+
+#testimonials img{
+    border-radius: 100%;
+    width:15%;
+    padding-top:0.2rem;
+    margin:10%;
+}
+
+.carousel-item{
+ padding:7% 15%;
+}
+
+
+/* SECTION-4 */
+#press{
+    background-color: #ef8172;
+    text-align:center;
+    padding-bottom:6%;
+}
+.press-img{
+    width:15%;
+    margin:1rem 2.1rem 2rem;
+}
+
+/* Section-5 */
+
+#pricing {
+    text-align:center;
+    padding:100px;
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+/* Section-6 */
+
+#cta {
+    text-align:center;
+    background-color:#ff4c68;
+    padding:6% 0;
+    color:#fff;
+}
+
+#cta h3{
+    font-size:3.2rem;
+    padding:0 20%;
+}
+
+#cta .btn{
+  margin:3% 1%;
+}
+
+
+.footer-row{
+    text-align: center;
+    padding:5% 0;
+}
+
+.footer-icons{
+    margin:1.5rem 0.3rem;
+}
+
